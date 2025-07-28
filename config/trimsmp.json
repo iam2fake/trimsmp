@@ -1,0 +1,17 @@
+{
+  "cooldowns": {
+    "bolt": [60, 30],
+    "wild": [1, 1],
+    "spire": [2, 0.5],
+    "flow": [null, 1],
+    "sentry": [3, null],
+    "dune": [20, null],
+    "tide": [40, null],
+    "ward": [20, 10],
+    "vex": [30, 10],
+    "silence": [40, null],
+    "wayfinder": [60, null],
+    "shaper": [150, null],
+    "host": [10, null]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "trimsmp",
+  "version": "1.0.0",
+  "name": "TrimsSMP",
+  "description": "Armor Trim Powers Mod",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.trimsmp.TrimsSMP"],
+    "client": ["com.trimsmp.client.TrimsSMPClient"]
+  },
+  "mixins": ["trimsmp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.21.8"
+  }
+}
